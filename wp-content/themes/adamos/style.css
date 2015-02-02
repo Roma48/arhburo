@@ -505,7 +505,7 @@ a:active {
 	background-color: #FFF;
 }
 .header_container {
-	background: #222;
+
 	margin: 0 auto;
 	max-width: 960px;
 	min-height: 88px;
@@ -567,15 +567,23 @@ a:active {
 	margin: 0 auto;
 	padding-bottom: 0;
 	padding-top: 0;
-	background-color: #222;
+    background: url("/wp-content/themes/adamos/images/zabor.png") repeat-x;
 	border-bottom: 1px solid #666;
 }
 .site-header .site-introduction {
 	float: left;
 	width: 30%;
-	padding-top: 16px;
+    margin-left: 8%;
+	padding-top: 26px;
 	
 }
+
+.site-logo img {
+    height: 88px !important;
+    margin-left: 100%;
+    float: left;
+}
+
 .site-title {
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -591,6 +599,8 @@ a:active {
 .site-title a,
 .site-description {
 	color: #FFF;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .site-logo {
@@ -605,8 +615,8 @@ a:active {
 .main-navigation {
     display: block;
 	float: right;
-	width: 70%;
-	padding-top: 26px;
+	width: 40%;
+	padding-top: 35px;
 	font-family: 'open_sansbold', sans-serif;
 }
 .main-navigation:after {
@@ -634,7 +644,9 @@ a:active {
     margin-right: 1em;
     text-decoration: none;
 	text-transform: uppercase;
-	padding: 0.2em 0.8em
+	padding: 0.2em 0.8em;
+    background-color: #228B22 !important;
+    border-radius: 0.2em;
 }
 .main-navigation ul ul {
 	background: #222;
@@ -661,7 +673,7 @@ a:active {
 .main-navigation li.current-menu-item a {
 	color: #FFF;
 	display: block;
-	background-color: #666;
+	background-color: #8B4513 !important;
 	border-radius: 0.2em;
 }
 
