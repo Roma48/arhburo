@@ -34,7 +34,6 @@
 	<?php do_action( 'before' ); ?>
     <div id="masthead-wrap">
 <header id="masthead" class="site-header header_container" role="banner">
-    <img style="float: left; margin-top: -1px" src="/wp-content/themes/adamos/images/st.png">
 
     <div class="site-logo">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_theme_mod( 'adamos_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"></a>
@@ -46,7 +45,7 @@
 			<p class="site-description"><?php bloginfo( 'description' ); ?></p> 
 		</div>
 
-    <img style="float: right; margin-top: -1px" src="/wp-content/themes/adamos/images/st.png">
+
 <nav role="navigation" class="site-navigation main-navigation">
 			<h1 class="assistive-text"><?php _e( 'Menu', 'adamos' ); ?></h1>
 			<div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'adamos' ); ?>"><?php _e( 'Skip to content', 'adamos' ); ?></a></div>

@@ -16,23 +16,47 @@ get_header(); ?>
 	<div class="col span_1_of_3">         
     <div class="featuretext">
 			 <h3><?php echo get_theme_mod( 'featured_textbox_header_one' ); ?></h3>
-             <p><?php echo get_theme_mod( 'featured_textbox_text_one' ); ?></p>
+             <img style="width: 250px; height: 200px" src="/wp-content/themes/adamos/images/1.jpg" />
 	</div>
     </div>
+
+
     
     <div class="col span_1_of_3">         
      <div class="featuretext">
 			 <h3><?php echo get_theme_mod( 'featured_textbox_header_two' ); ?></h3>
-             <p><?php echo get_theme_mod( 'featured_textbox_text_two' ); ?></p>
+             <img style="width: 250px; height: 200px" src="/wp-content/themes/adamos/images/2.jpg" />
 	</div>
     </div>
     
    <div class="col span_1_of_3">         
      <div class="featuretext">
 			 <h3><?php echo get_theme_mod( 'featured_textbox_header_three' ); ?></h3>
-             <p><?php echo get_theme_mod( 'featured_textbox_text_three' ); ?></p>
+                <img style="width: 250px; height: 200px" src="/wp-content/themes/adamos/images/3.jpg" />
 	</div>
     </div>
+       <div class="col span_1_of_3" style="margin-left: 0 ">
+           <div class="featuretext">
+               <h3><?php echo get_theme_mod( 'featured_textbox_header_four' ); ?></h3>
+               <img style="width: 250px; height: 200px" src="/wp-content/themes/adamos/images/4.jpg" />
+           </div>
+       </div>
+
+       <div class="col span_1_of_3">
+           <div class="featuretext">
+               <h3><?php echo get_theme_mod( 'featured_textbox_header_five' ); ?></h3>
+               <img style="width: 250px; height: 200px" src="/wp-content/themes/adamos/images/5.jpg" />
+           </div>
+       </div>
+
+       <div class="col span_1_of_3">
+           <div class="featuretext">
+               <h3><?php echo get_theme_mod( 'featured_textbox_header_six' ); ?></h3>
+               <img style="width: 250px; height: 200px" src="/wp-content/themes/adamos/images/6.png" />
+           </div>
+       </div>
+
+
     </div>
     
      <div class="section_thumbnails group">

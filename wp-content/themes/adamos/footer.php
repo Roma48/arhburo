@@ -44,11 +44,7 @@
 	</div>
 	</div>
         </div><!-- footer container -->
-        <div class="site-info">
-            <a href="<?php $my_theme = wp_get_theme(); echo $my_theme->get( 'ThemeURI' ); ?>">
-            <?php _e('Adamos WordPress Theme','adamos'); ?></a>
-            <?php echo __( 'Powered By WordPress ', 'adamos' ); ?>
-		</div><!-- .site-info -->
+
 	</footer><!-- #colophon .site-footer -->
     <a href="#top" id="smoothup"></a>
 </div><!-- #page .hfeed .site -->

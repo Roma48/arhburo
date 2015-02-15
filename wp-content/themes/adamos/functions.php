@@ -444,7 +444,143 @@ function featured_text_three_customizer( $wp_customize ) {
 }
 add_action( 'customize_register', 'featured_text_three_customizer' );
 
+function featured_text_four_customizer( $wp_customize ) {
+    $wp_customize->add_section(
+        'featured_section_four',
+        array(
+            'title' => __( 'Featured Text Box 4', 'adamos' ),
+            'description' => __( 'This is a settings section to change the homepage featured text area.', 'adamos' ),
+            'priority' => 160,
+        )
+    );
 
+    $wp_customize->add_setting(
+        'featured_textbox_header_four',
+        array(
+            'default' => __( 'Default featured text Header', 'adamos' ),
+            'sanitize_callback' => 'adamos_sanitize_text',
+        )
+    );
+
+    $wp_customize->add_control(
+        'featured_textbox_header_four',
+        array(
+            'label' => __( 'Featured Header text', 'adamos' ),
+            'section' => 'featured_section_four',
+            'type' => 'text',
+        )
+    );
+
+    $wp_customize->add_setting(
+        'featured_textbox_text_four',
+        array(
+            'default' => __( 'Default featured text', 'adamos' ),
+            'sanitize_callback' => 'adamos_sanitize_text',
+        )
+    );
+
+    $wp_customize->add_control(
+        'featured_textbox_text_four',
+        array(
+            'label' => __( 'Featured text', 'adamos' ),
+            'section' => 'featured_section_four',
+            'type' => 'text',
+        )
+    );
+}
+add_action( 'customize_register', 'featured_text_four_customizer' );
+
+function featured_text_five_customizer( $wp_customize ) {
+    $wp_customize->add_section(
+        'featured_section_five',
+        array(
+            'title' => __( 'Featured Text Box 5', 'adamos' ),
+            'description' => __( 'This is a settings section to change the homepage featured text area.', 'adamos' ),
+            'priority' => 160,
+        )
+    );
+
+    $wp_customize->add_setting(
+        'featured_textbox_header_five',
+        array(
+            'default' => __( 'Default featured text Header', 'adamos' ),
+            'sanitize_callback' => 'adamos_sanitize_text',
+        )
+    );
+
+    $wp_customize->add_control(
+        'featured_textbox_header_five',
+        array(
+            'label' => __( 'Featured Header text', 'adamos' ),
+            'section' => 'featured_section_five',
+            'type' => 'text',
+        )
+    );
+
+    $wp_customize->add_setting(
+        'featured_textbox_text_five',
+        array(
+            'default' => __( 'Default featured text', 'adamos' ),
+            'sanitize_callback' => 'adamos_sanitize_text',
+        )
+    );
+
+    $wp_customize->add_control(
+        'featured_textbox_text_five',
+        array(
+            'label' => __( 'Featured text', 'adamos' ),
+            'section' => 'featured_section_five',
+            'type' => 'text',
+        )
+    );
+}
+add_action( 'customize_register', 'featured_text_five_customizer' );
+
+function featured_text_six_customizer( $wp_customize ) {
+    $wp_customize->add_section(
+        'featured_section_six',
+        array(
+            'title' => __( 'Featured Text Box 6', 'adamos' ),
+            'description' => __( 'This is a settings section to change the homepage featured text area.', 'adamos' ),
+            'priority' => 160,
+        )
+    );
+
+    $wp_customize->add_setting(
+        'featured_textbox_header_six',
+        array(
+            'default' => __( 'Default featured text Header', 'adamos' ),
+            'sanitize_callback' => 'adamos_sanitize_text',
+        )
+    );
+
+    $wp_customize->add_control(
+        'featured_textbox_header_six',
+        array(
+            'label' => __( 'Featured Header text', 'adamos' ),
+            'section' => 'featured_section_six',
+            'type' => 'text',
+        )
+    );
+
+    $wp_customize->add_setting(
+        'featured_textbox_text_six',
+        array(
+            'default' => __( 'Default featured text', 'adamos' ),
+            'sanitize_callback' => 'adamos_sanitize_text',
+        )
+    );
+
+    $wp_customize->add_control(
+        'featured_textbox_text_six',
+        array(
+            'label' => __( 'Featured text', 'adamos' ),
+            'section' => 'featured_section_six',
+            'type' => 'text',
+        )
+    );
+}
+add_action( 'customize_register', 'featured_text_six_customizer' );
 /**
  * Implement excerpt for homepage slider
  */
