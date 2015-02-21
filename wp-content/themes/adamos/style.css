@@ -608,6 +608,19 @@ a:active {
 
 }
 
+.flex-caption a {
+    font-weight: bold;
+}
+
+.flex-caption p {
+
+    font-style: italic;
+}
+
+.flexslider .slides img {
+    max-height: 400px;
+}
+
 /* =Menu
 ----------------------------------------------- */
 
@@ -796,13 +809,22 @@ a:active {
 .entry-title,
 .page-title {
 	font-family: 'open_sansbold', sans-serif;
-	font-size: 16px;
+	font-size: 18px !important;
     font-size: 1.6rem;
-	margin: 0.4em 0 0.2em;
+	font-weight: bold;
 	padding-top: 10px;
 	text-transform: uppercase;
 	color: #222;
+    display: table-cell;
+    width: 1000px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
 }
+
+.entry-header {
+    margin-top: 20px;
+}
+
 .entry-title a {
 	text-decoration: none;
 	color: #222;
@@ -1201,8 +1223,10 @@ p.nocomments {
 	color: #AAA;
 }
 .site-footer .widget{
-	padding: 8px;
+	padding: 0px;
 }
+
+
 
 
 /* Open Sans
@@ -1642,4 +1666,18 @@ MEDIA QUERIES
 	font-size:12px;
 	padding: 6px;
 	}
+}
+
+
+.form9 .wdform_page {
+    padding: 15px !important;
+}
+
+.form10 .wdform_page, .form11 .wdform_page {
+    padding: 0 !important;
+}
+
+.form10 .button-submit {
+    line-height: 10px !important;
+    height: 29px !important;
 }

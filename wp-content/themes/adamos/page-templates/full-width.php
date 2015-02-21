@@ -16,7 +16,7 @@
 
 
 
-get_header(); ?>
+get_header('no-slider'); ?>
 
 
 
@@ -34,7 +34,7 @@ get_header(); ?>
 
 
 
-					<?php comments_template( '', true ); ?>
+
 
 
 

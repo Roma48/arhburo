@@ -63,7 +63,7 @@
 			</a>
 		<?php } // if ( ! empty( $header_image ) ) ?>
 	</div>
-    <?php if(is_front_page()):?>
+
     <div class="flex-container">
               <div class="flexslider">
                 <ul class="slides">
@@ -92,9 +92,6 @@
                 </ul>
               </div>
 	</div>
-     <div class="featuretext_top">
-			 <h3><?php echo get_theme_mod( 'featured_textbox' ); ?></h3>
-             <p><a href="<?php echo esc_url( get_theme_mod( 'header_one_url' ) ); ?>"><?php echo esc_html(get_theme_mod( 'featured_textbox_text' ) ); ?></a></p>
-	</div>
-    <?php endif; ?>
+
+    
 	<div id="main" class="site-main">
