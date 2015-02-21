@@ -38,7 +38,7 @@
 
         <div class="widget">
             <div id="text-3" class="widget widget_text">
-                <h4>Зворотній звязок</h4>
+                <h4>Зворотній зв’язок</h4>
             </div>
             <?php wd_contact_form_maker(10); ?>
         </div>

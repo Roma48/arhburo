@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ddd99be-c9fd-45ca-b6b3-7ec7a29bb5fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/adamos/page-templates/full-width-home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/adamos/header-no-slider.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/adamos/comments.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arhburo.sql" afterPath="$PROJECT_DIR$/arhburo.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/adamos/page-templates/custom_home.php" afterPath="$PROJECT_DIR$/wp-content/themes/adamos/page-templates/custom_home.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/adamos/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/adamos/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/adamos/page-templates/full-width.php" afterPath="$PROJECT_DIR$/wp-content/themes/adamos/page-templates/full-width.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/adamos/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/adamos/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/adamos/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/adamos/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -39,17 +33,17 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/adamos/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.0" vertical-offset="29790" max-vertical-offset="30384">
-              <caret line="1680" column="33" selection-start-line="1680" selection-start-column="33" selection-end-line="1680" selection-end-column="33" />
+            <state vertical-scroll-proportion="-5.111111" vertical-offset="7194" max-vertical-offset="30528">
+              <caret line="415" column="20" selection-start-line="415" selection-start-column="20" selection-end-line="415" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="full-width-home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="full-width-home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/adamos/page-templates/full-width-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13487476" vertical-offset="2" max-vertical-offset="1008">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1008">
               <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
               <folding />
             </state>
@@ -86,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="full-width.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="full-width.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/adamos/page-templates/full-width.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="792">
+            <state vertical-scroll-proportion="0.03468208" vertical-offset="90" max-vertical-offset="792">
               <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
@@ -99,8 +93,8 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/adamos/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="990">
-              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+            <state vertical-scroll-proportion="-3.4615386" vertical-offset="414" max-vertical-offset="990">
+              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -159,9 +153,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/adamos/header-no-slider.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/adamos/page-templates/full-width.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/adamos/page-templates/custom_home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/adamos/page-templates/full-width-home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/adamos/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/adamos/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/adamos/page-templates/full-width-home.php" />
       </list>
     </option>
   </component>
@@ -198,7 +192,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -321,6 +314,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -381,10 +375,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="24" width="1327" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26968044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27357754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -476,7 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="819">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,14 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/adamos/page-templates/full-width.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="792">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/adamos/page-templates/custom_home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1602">
@@ -794,26 +778,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/adamos/page-templates/full-width-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1008">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/adamos/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="414" max-vertical-offset="990">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        <state vertical-scroll-proportion="-3.4615386" vertical-offset="414" max-vertical-offset="990">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/adamos/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.0" vertical-offset="29790" max-vertical-offset="30384">
-          <caret line="1680" column="33" selection-start-line="1680" selection-start-column="33" selection-end-line="1680" selection-end-column="33" />
+        <state vertical-scroll-proportion="-5.111111" vertical-offset="7194" max-vertical-offset="30528">
+          <caret line="415" column="20" selection-start-line="415" selection-start-column="20" selection-end-line="415" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/adamos/page-templates/full-width-home.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/adamos/page-templates/full-width.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13487476" vertical-offset="2" max-vertical-offset="1008">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.03468208" vertical-offset="90" max-vertical-offset="792">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding />
         </state>
       </provider>

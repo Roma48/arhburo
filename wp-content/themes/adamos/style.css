@@ -411,7 +411,7 @@ a:active {
 	color: #FFF;
 	padding: 4px;
 	border-radius:0.2em;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid #fff;
 	font-family: 'open_sansbold', sans-serif;
 	font-size: 14px;
 	font-size: 1.4rem;
@@ -505,7 +505,7 @@ a:active {
 	background-color: #FFF;
 }
 .header_container {
-	background: #222;
+	background: #383838;
 	margin: 0 auto;
 	max-width: 960px;
 	min-height: 88px;
@@ -552,10 +552,10 @@ a:active {
 .site-footer {
 	clear: both;
 	margin: 0 auto;
-	background-color: #222;
+	background-color: #383838;
 }
 .footer_container {
-	background: #222;
+	background: #383838;
 	margin: 0 auto;
 	max-width: 960px;
 }
@@ -567,7 +567,7 @@ a:active {
 	margin: 0 auto;
 	padding-bottom: 0;
 	padding-top: 0;
-	background-color: #222;
+	background-color: #383838;
 	border-bottom: 1px solid #666;
 }
 .site-header .site-introduction {
@@ -1673,7 +1673,7 @@ MEDIA QUERIES
     padding: 15px !important;
 }
 
-.form10 .wdform_page, .form11 .wdform_page {
+.form10 .wdform_page, .form11 .wdform_page, .form10 .wdform-field {
     padding: 0 !important;
 }
 
@@ -1681,3 +1681,10 @@ MEDIA QUERIES
     line-height: 10px !important;
     height: 29px !important;
 }
+
+.form10 .wdform-field {
+    display: block !important;
+    float: right;
+    width: 310px !important;
+}
+
