@@ -20,12 +20,12 @@ get_header(); ?>
 
 					<?php get_template_part( 'content', 'page' ); ?>
 
-					<?php comments_template( '', true ); ?>
+
 
 				<?php endwhile; // end of the loop. ?>
 
 			</div><!-- #content .site-content -->
 		</div><!-- #primary .content-area -->
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

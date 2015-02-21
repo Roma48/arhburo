@@ -8,7 +8,7 @@
  * @since adamos 1.0
  */
 
-get_header(); ?>
+get_header('no-slider'); ?>
 
 		<section id="primary" class="content-area">
 			<div id="content" class="site-content" role="main">
@@ -19,7 +19,7 @@ get_header(); ?>
 					<h1 class="page-title">
 						<?php
 							if ( is_category() ) {
-								printf( __( 'Category Archives: %s', 'adamos' ), '<span>' . single_cat_title( '', false ) . '</span>' );
+								printf( __( '%s', 'adamos' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 
 							} elseif ( is_tag() ) {
 								printf( __( 'Tag Archives: %s', 'adamos' ), '<span>' . single_tag_title( '', false ) . '</span>' );
@@ -91,5 +91,5 @@ get_header(); ?>
 			</div><!-- #content .site-content -->
 		</section><!-- #primary .content-area -->
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>
